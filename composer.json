@@ -1,0 +1,31 @@
+{
+  "name": "greew/renoweb-to-ics",
+  "description": "Convert a RenoWeb request to an iCalendar file used in a calendar",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Jesper Skytte",
+      "email": "jesper@skytte.it"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.5",
+    "spatie/icalendar-generator": "^2.0",
+    "symfony/http-foundation": "^6.0",
+    "symfony/var-dumper": "^6.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Greew\\RenowebToIcs\\": "src/"
+    }
+  }
+}

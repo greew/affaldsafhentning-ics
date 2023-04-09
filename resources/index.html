@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<a href="https://github.com/greew/renoweb-to-ics" target="_blank" rel="noopener noreferrer">
+    <img src="img/fork.png" class="absolute top-0 right-0" alt="Fork me on GitHub"/>
+</a>
+<div class="flex flex-col items-center p-12 h-screen w-screen">
+    <h1 class="text-4xl font-bold text-gray-800 mb-8">Affaldshentning og Kalenderintegration</h1>
+    <p class="text-center text-xl mb-8">Dette system hjælper med at få dine kommende affaldshentninger ind i din kalender.</p>
+    <p class="text-center mb-8">Her kan du få hjælp til at få dine kommende affaldstømninger ind i din kalender. På den måde slipper du for at at gå og huske på, hvornår du skal have hvilke
+        containere
+        ud til
+        vejen. Nu kommer det automatisk frem i din kalendr med en fin lille notifikation dagen før, eller hvornår du ønsker det.</p>
+    <div class="grow flex flex-row items-center justify-center w-full gap-4 h-3/4 items-stretch mb-8">
+        <div class="border-4 rounded-lg border-gray-700 basis-1/3 min-h-full p-8">
+            <h3 class="text-2xl text-center">Adresse</h3>
+            <input placeholder="Indtast adresse" class="w-full border-2 rounded border-gray-200 p-2" id="addressAutocomplete">
+            <button class="border-2 rounded px-4 py-2 mt-2" id="select-address">Vælg</button>
+        </div>
+
+        <div class="border-4 rounded-lg border-gray-700 basis-1/3 h-full p-8">
+            <h3 class="text-2xl text-center">Afhentninger</h3>
+        </div>
+
+        <div class="border-4 rounded-lg border-gray-700 basis-1/3 h-full p-8">
+            <h3 class="text-2xl text-center">Notifikationer</h3>
+        </div>
+    </div>
+
+    <div class="border-4 rounded-lg border-gray-700 w-full p-8 mb-8">
+        <h3 class="text-2xl text-center">Hent link</h3>
+    </div>
+
+    <footer>
+        <p class="text-center text-gray-500 text-sm">© 2023 - <a href="mailto:jesper@skytte.it">Jesper Skytte</a></p>
+    </footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
